@@ -9,6 +9,6 @@ app.get('/*', (req, res) => (
   res.sendFile(__dirname + '/dist/singlepage/index.html')
 ));
 
-app.listen(PORT, ()=>(
-  console.log('servidor executado na porta ' + PORT)
-))
+app.listen(PORT, ()=> {
+  console.log('servidor executado na porta ' + PORT);
+});
