@@ -55,6 +55,16 @@ import { CaixaParaPetComponent } from 'src/app/caixa-para-pet/caixa-para-pet.com
     MatCardModule,
 
   ],
+  exports: [
+    AppComponent,
+    CaixaParaPetComponent,
+    HeaderComponent,
+    FooterComponent,
+    IniciarOrcamentoComponent,
+    TipoCaixaComponent,
+    AlturaDataComponent,
+    FinalizarPedidoComponent
+  ],
   providers: [
     {provide: MAT_DATE_LOCALE, useValue: 'pt-BR'},
     { provide: DEFAULT_CURRENCY_CODE, useValue: 'BRL' },
